@@ -4,15 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//unpkg.com/grapesjs/dist/css/grapes.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Grapes JS </title>
 </head>
 <body>
 
-    <div id="gjs">
-        <h1>Hello World Component!</h1>
-
+    <div class="panel__top">
+        <div class="panel__basic-actions"></div>
+        <div class="panel__devices"></div>
+        <div class="panel__switcher"></div>
     </div>
+    <div class="editor-row">
+        <div class="editor-canvas">
+          <div id="gjs"><h1>Hello World Content!!!</h1></div>
+        </div>
+        <div class="panel__right">
+          <div class="layers-container"></div>
+          <div class="styles-container"></div>
+          <div class="traits-container"></div>
+        </div>
+      </div>
+    <div id="blocks">Check</div>
+
+
+
+
+    <script src="//unpkg.com/grapesjs"></script>
     <script src="app.js"></script>
 </body>
 </html>
